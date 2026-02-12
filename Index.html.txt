@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Princess Cyntho ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+      text-align: center;
+      padding: 40px 20px;
+      color: #fff;
+    }
+    h1 {
+      font-size: 2.2em;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    button {
+      font-size: 1.1em;
+      padding: 15px 30px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+    .yes {
+      background-color: #ff4b5c;
+      color: pink;
+    }
+    .no {
+      background-color: white;
+      color: #ff4b5c;
+    }
+    #result {
+      margin-top: 40px;
+      font-size: 1.5em;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hey My princess❤️</h1>
+  <p>I’ve been wanting to ask you something special…😔</p>
+
+  <h1>Will you be my Valentine? 💌</h1>
+
+  <button class="yes" onclick="yesClicked()">YES ❤️</button>
+  <button class="no" onclick="noClicked()">Let me think 😌</button>
+
+  <div id="result"></div>
+
+  <script>
+    function yesClicked() {
+      document.getElementById("result").style.display = "block";
+      document.getElementById("result").innerHTML =
+        "She said YES ❤️‼️<br><br>How I really wis and adore to celebrate Valentine’s with you!";
+    }
+
+    function noClicked() {
+      alert("That option isn’t available for my small girl");
+    
+  </script>
+
+</body>
+</html>
